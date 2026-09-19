@@ -4,7 +4,7 @@ describe('Meu primeiro teste com Cypress', () => {
     cy.visit('https://www.globo.com')
   })
 
-  it('Deve validar o link de acesso ao Globoplay', () => {
+  it('Deve validar o link de acesso', () => {
 
     cy.get('.header-title.homeui-tc-globoplay')
       .filter(':visible')
